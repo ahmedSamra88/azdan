@@ -1,0 +1,71 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.rtl.min.css";
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css"; 
+/* start global style */
+@font-face {
+    font-family: cairo;
+    src: url(fonts/cairo.ttf);
+}
+body{
+    height: 1200px;
+    font-family: cairo;
+    font-weight: bold;
+}
+
+/* end global style */
+/* start hero section */
+.hero{
+    /* background: linear-gradient(#0F839D,#0F4EA5); */
+    min-height: 100vh;
+}
+.hero h2{
+    font-size: 3.1rem;
+    letter-spacing: 5px;
+}
+.hero p,
+.contact-us span{
+    color: #A8CDDC;
+    letter-spacing: 4px;
+}
+.hero .btn,
+.our-projects .btn,
+.contact-us .btn{
+    border-radius: 20px;
+}
+.hero .hero-image{
+    bottom: -200px;
+}
+/* end hero section */
+/* start why-us */
+.why-us h2,
+.our-projects h2{
+    color: #0F4EA5;
+    font-size: 2.7rem;
+}
+.why-us span,
+.why-us h5,
+.our-projects span{
+    color: #0F4EA5;
+}
+.why-us i{
+    color: #0FA597;
+}
+.why-us p,
+.our-projects p,
+.our-projects h5{
+    color: #AAAAAD;
+    max-width: 600px;
+}
+
+/* end why-us */
+/* start contact us style */
+.contact-us{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #0F4EA5;
+}
+/* end contact us style */
+/* start footer */
+footer{
+    color: #8192AA;
+}
+/* end footer */
